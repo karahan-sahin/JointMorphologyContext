@@ -27,7 +27,7 @@ If you don't have the training data you can either create one from scratch using
 
 ```bash
 python3 DataLoader.py -d <train/test> 
-					  -b <batch_size>
+		      -b <batch_size>
                       -p <path/to/datafile>
 ```
 
@@ -35,7 +35,7 @@ After your training/test data is generated then you can train the model. The tra
 
 ```bash
 python3 trainer.py -t <encoderType (rnn/tr)> # rnn for LSTM-based encoder-decoder and tr Transformer-based encoder-decoder
-				   -e <number_of_epochs>
-				   -p <path/to/checkpoints> 
+		   -e <number_of_epochs>
+		   -p <path/to/checkpoints> 
 ```
 
